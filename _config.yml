@@ -3,7 +3,7 @@ title: Yağız Küçükkambak
 subtitle: DevOps Consultant
 email: yagizkambak@gmail.com
 description: Welcome to my GitHub Page.<br /> Wanna take a look at what you can find?
-baseurl: "/" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: https://yagizkambak.github.io
 # author:
 # street_address:
