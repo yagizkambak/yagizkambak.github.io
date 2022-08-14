@@ -1,5 +1,49 @@
-title: Yagız Küçükkambak
-description: DevOps Consultant @OBSS
-show_downloads: true
-google_analytics:
-theme: jekyll-theme-architect
+# site settings
+title: Yağız Küçükkambak
+subtitle: DevOps Consultant
+email: yagizkambak@gmail.com
+description: Welcome to my GitHub Page.<br /> Wanna take a look at what you can find?
+baseurl: "/portfolio" # the subpath of your site, e.g. /blog
+# url: # the base hostname & protocol for your site
+# author:
+# street_address:
+city: Istanbul
+# state: 
+# zip_code:
+country: Turkey
+# phone: 
+
+# homepage tiles
+tiles-source: pages # accepts "posts" or "pages"
+tiles-count: 10
+
+# social settings (key must match name of font awesome icon)
+# see https://fontawesome.com/icons?d=gallery&p=2&s=brands
+# Icons are not shown if value is empty
+# You need to restart jekyll for changes to have an effect
+socials:
+  GitHub: https://github.com/yagizkambak
+  GitLab: https://gitlab.com/yagizkambak
+  # Instagram: 
+  LinkedIn: https://www.linkedin.com/in/yagizkambak
+  # Twitter:
+  # Facebook:
+  # Slack:
+
+# build settings
+markdown: kramdown
+
+plugins:
+  - jekyll-redirect-from
+
+sass:
+  style: compressed
+
+whitelist:
+  - jekyll-redirect-from
+  
+exclude:
+- "*.gemspec"
+- LICENSE.md
+- CONTRIBUTING.md
+- README.md 
