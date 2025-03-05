@@ -1,15 +1,15 @@
 # site settings
 title: Yağız Küçükkambak
 subtitle: Senior DevOps Consultant
-description: Welcome to my GitHub Page.
-baseurl: "" # the subpath of your site, e.g. /blog
+description: Welcome to my Portfolio
+baseurl: ""
 url: https://yagizkambak.github.io
 city: Istanbul
 country: Turkey
 
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"
-tiles-count: 10
+tiles-count: 6
 
 # social settings (key must match name of font awesome icon)
 # see https://fontawesome.com/icons?d=gallery&p=2&s=brands
@@ -20,7 +20,6 @@ socials:
   GitLab: https://gitlab.com/yagizkambak
   LinkedIn: https://www.linkedin.com/in/yagizkambak
 
-# build settings
 markdown: kramdown
 
 plugins:
